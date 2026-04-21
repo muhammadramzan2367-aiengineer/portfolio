@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Projects | Minahil Ramzan</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="logo" href="index.html">Minahil<span>Ramzan</span></a>
+
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="qa.html">Internships</a>
+      <a class="active" href="ai.html">AI</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+<a class="btn small" href="MinahilRamzanCV.pdf" target="_blank">Download CV</a>  </div>
+  </div>
+</header>
+
+<main class="container">
+
+<!-- HERO -->
+<section class="section" style="padding-top: 26px;">
+  <p class="tag">AI / ML Portfolio</p>
+
+  <h1 style="font-size: 38px;">
+    My <span style="background: linear-gradient(90deg,#84B067,#a8c48c);-webkit-background-clip:text;color:transparent;">Projects</span>
+  </h1>
+
+  <p class="text">
+    A collection of my AI, Android, and real-world problem-solving projects.
+  </p>
+</section>
+
+<!-- PROJECTS -->
+<section class="section">
+  <div class="grid">
+
+    <!-- Emergency 112 -->
+    <div class="card">
+      <h3>🚨 Emergency Index 112</h3>
+      <p class="text">
+        AI-based emergency system that converts Urdu calls into English, classifies emergencies,
+        and generates response plans.
+      </p>
+
+      <ul style="margin-top:10px; color:var(--muted); line-height:1.9;">
+        <li>• Speech-to-text + translation</li>
+        <li>• NLP preprocessing + keyword extraction</li>
+        <li>• Classification using ML</li>
+        <li>• Real-time response system</li>
+      </ul>
+
+      <p class="text"><b>Tech:</b> Python, NLP, Random Forest</p>
+    </div>
+
+    <!-- Kalimatul Noor -->
+    <div class="card">
+      <h3>📱 Kalimatul Noor App</h3>
+      <p class="text">
+        Islamic Android application with structured navigation and optimized UI for Quranic content.
+      </p>
+
+      <ul style="margin-top:10px; color:var(--muted); line-height:1.9;">
+        <li>• Built using Kotlin & Android Studio</li>
+        <li>• RecyclerView for large datasets</li>
+        <li>• Smooth fragment navigation</li>
+        <li>• Responsive UI design</li>
+      </ul>
+
+      <p class="text"><b>Tech:</b> Kotlin, Android, XML</p>
+    </div>
+
+    <!-- Human Body Generator -->
+    <div class="card">
+      <h3>🧍 Human Body Generator</h3>
+      <p class="text">
+        AI-based system that generates human body variations based on user inputs like age and pose.
+      </p>
+
+      <ul style="margin-top:10px; color:var(--muted); line-height:1.9;">
+        <li>• Dynamic UI controls</li>
+        <li>• Image generation logic</li>
+        <li>• Android integration</li>
+      </ul>
+
+      <p class="text"><b>Tech:</b> Android, AI Logic</p>
+    </div>
+
+    <!-- Urdugest -->
+    <div class="card">
+      <h3>🤟 Urdugest</h3>
+      <p class="text">
+        Urdu sign language recognition system that converts gestures into text.
+      </p>
+
+      <ul style="margin-top:10px; color:var(--muted); line-height:1.9;">
+        <li>• Real-time prediction</li>
+        <li>• Multi-class dataset</li>
+        <li>• Word formation system</li>
+      </ul>
+
+      <p class="text"><b>Tech:</b> Python, OpenCV</p>
+    </div>
+
+    <!-- License Plate -->
+    <div class="card">
+      <h3>🚗 License Plate Recognition</h3>
+      <p class="text">
+        Detection and recognition of vehicle number plates using deep learning.
+      </p>
+
+      <ul style="margin-top:10px; color:var(--muted); line-height:1.9;">
+        <li>• YOLO object detection</li>
+        <li>• CNN pipeline</li>
+        <li>• Real-time inference</li>
+      </ul>
+
+      <p class="text"><b>Tech:</b> YOLO, PyTorch</p>
+    </div>
+
+    <!-- RL -->
+    <div class="card">
+      <h3>🤖 Reinforcement Learning</h3>
+      <p class="text">
+        Implemented Value Iteration for optimal policy learning.
+      </p>
+
+      <ul style="margin-top:10px; color:var(--muted); line-height:1.9;">
+        <li>• Bellman updates</li>
+        <li>• Policy extraction</li>
+        <li>• Convergence tuning</li>
+      </ul>
+
+      <p class="text"><b>Tech:</b> Python</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section">
+  <h2 class="section-title">Skills</h2>
+
+  <div class="skills">
+    <div class="pill">Python</div>
+    <div class="pill">Machine Learning</div>
+    <div class="pill">Deep Learning</div>
+    <div class="pill">Android Developer</div>
+    <div class="pill">Kotlin</div>
+    <div class="pill">YOLO</div>
+    <div class="pill">OpenCV</div>
+    <div class="pill">TensorFlow</div>
+    <div class="pill">PyTorch</div>
+    <div class="pill">RAG / LLMs</div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Minahil Ramzan • AI Engineer</p>
+</footer>
+
+</main>
+
+<script>
+document.getElementById("year").innerText = new Date().getFullYear();
+</script>
+
+</body>
+</html>
