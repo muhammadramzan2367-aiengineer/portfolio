@@ -11,7 +11,7 @@ I love turning complex AI systems into real-world, user-friendly applications.
 ---
 
 ## 📄 Download CV
-📌 [Minahil Ramzan CV](MinahilRamzan.CV.pdf)
+📌 [Minahil Ramzan CV](https://muhammadramzan2367-aiengineer.github.io/portfolio/MinahilRamzanCV.pdf)
 
 ---
 
