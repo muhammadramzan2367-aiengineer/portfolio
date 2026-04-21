@@ -6,7 +6,7 @@ I love turning complex AI systems into real-world, user-friendly applications.
 ---
 
 ## 🌐 Portfolio Website
-🔗 [Minahil Ramzan Portfolio](https://your-portfolio-link-here)
+🔗 [Minahil Ramzan Portfolio](https://muhammadramzan2367-aiengineer.github.io/portfolio/)
 
 ---
 
